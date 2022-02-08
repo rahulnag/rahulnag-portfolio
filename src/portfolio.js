@@ -17,7 +17,7 @@ const greeting = {
     "A passionate self-taught frontend web developer and Founder/ Tech Blogger at CapsCode. I am having an experiende in building Web and Mobile applications with JavaScript / Reactjs and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/12CtAZK7Irzs_T82C5NFhe8HZixmbv-n5/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true, // Set false to hide this section, defaults to true
 };
 
@@ -236,49 +236,157 @@ const bigProjects = {
   subtitle: "Some of my interesting and helpful projects",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/vaccine_project.jpg"),
+      projectName: "Covid Vaccine Tracker",
+      projectDesc: "Live covid vaccine tracker with voice enabled notification",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/",
+          url: "https://searchvaccine.netlify.app/#/",
         },
         //  you can add extra buttons here.
       ],
     },
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/myemoji_project.JPG"),
+      projectName: "My Emoji",
+      projectDesc:
+        "Contains 1000+ Emojis Which You Can Copy and Use It Anywhere You Want",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/",
+          url: "http://myemoji.ml/",
         },
         //  you can add extra buttons here.
       ],
     },
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/colorscube_project.JPG"),
+      projectName: "Colors Cube",
+      projectDesc:
+        "Developer's choice amazing colors(neon, mate finish, solid, cool etc.)",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/",
+          url: "https://www.colorscube.ml/",
         },
         //  you can add extra buttons here.
       ],
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/iris_project.JPG"),
+      projectName: "IRIS Legal",
+      projectDesc:
+        "Website for a Delhi based startup who provide Legal Solutions",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/",
+          url: "http://irislegal.in",
+        },
+      ],
+    },
+    {
+      image: require("./assets/images/selfless_project.JPG"),
+      projectName: "Selfless Family",
+      projectDesc:
+        "Website for a startup who provide info for Job Openings and help fresher to get JOB",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "http://selflessfamily.in",
+        },
+      ],
+    },
+    {
+      image: require("./assets/images/capscode_project.JPG"),
+      projectName: "CapsCode",
+      projectDesc:
+        "My startup website where i used to write blogs and provide other services",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "http://capscode.in",
+        },
+      ],
+    },
+    {
+      image: require("./assets/images/glassy_project.JPG"),
+      projectName: "Glassy Effect",
+      projectDesc: "NPM package to get glassy effect in your project",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://rahulnag.github.io/glassy-effect/",
+        },
+      ],
+    },
+    {
+      image: require("./assets/images/jsonformatter_project.JPG"),
+      projectName: "JSON Formatter",
+      projectDesc: "A online JSON formatter tool to format your JSON data",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://rahulnag.github.io/json-formatter/",
+        },
+      ],
+    },
+    {
+      image: require("./assets/images/covid_project.JPG"),
+      projectName: "COVID Case Tracker",
+      projectDesc:
+        "Website to track COVID cases in INDIA, developed when we have 2 case of covid19",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://rahulnag.github.io/covid19/",
+        },
+      ],
+    },
+    {
+      image: require("./assets/images/todo_project.JPG"),
+      projectName: "Dragable TODO",
+      projectDesc:
+        "Dragable TODO, where you can drag your task a/c to priority",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://todobynag.netlify.app/",
+        },
+      ],
+    },
+    {
+      image: require("./assets/images/covid_project.JPG"),
+      projectName: "CCL Learning",
+      projectDesc: "A simple website for my friend,to get the youtube video",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://cclkk.netlify.app/#/",
+        },
+      ],
+    },
+    {
+      image: require("./assets/images/deliverytalla_project.JPG"),
+      projectName: "DeliveryTalla",
+      projectDesc:
+        "Webapp from where you can order stuffs from your nearby location and track it",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://deliverytalla.netlify.app/#/",
+        },
+      ],
+    },
+    {
+      image: require("./assets/images/covid_project.JPG"),
+      projectName: "COVID Case Tracker",
+      projectDesc:
+        "Website to track COVID cases in INDIA, developed when we have 2 case of covid19",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://rahulnag.github.io/covid19/",
         },
       ],
     },
@@ -353,21 +461,41 @@ const achievementSection = {
 const blogSection = {
   title: "Blogs",
   subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
+    "I write Technical Blog On Frontend Related Stuffs aling with some Personal Experience in Tech",
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
       url:
-        "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+        "https://www.capscode.in/blog/how-to-detect-screen-orientation-using-javascript",
+      title: "Detect Screen Orientation Using JavaScript",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?",
+        "In this blog we will see How to detect screen orientation using JavaScript",
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
+      url:
+        "https://www.capscode.in/blog/how-to-set-variable-as-a-key-name-in-javascript-object",
+      title: "Set Variable as keyname in JS Object",
       description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies.",
+        "In this blog you are going to learn a very important and useful concept of JavaScript which you will definitely going to use or might have used in Production application, i.e: How to make any variable name as key of an object in JS.",
+    },
+    {
+      url: "https://www.capscode.in/blog/style-console.log-like-a-pro",
+      title: "Style console.log() like a PRO",
+      description:
+        "In this blog I will guide you all through HOW WE CAN STYLE CONSOLE.LOG() USING CSS,I have made 12 different styles for you to make sure that you will not ended up with any confusions.",
+    },
+    {
+      url:
+        "https://www.capscode.in/blog/dot-and-bracket-notation-in-javascript",
+      title: "DOT & BRACKET Notation in Javascript",
+      description:
+        "In JavaScript we can access the properties of object using dot notation(person.first_name) and bracket notation(person[first_name]). But what's the difference between these two notations and when to use which one ? ",
+    },
+    {
+      url: "https://www.capscode.in/blog/array.flat-in-javascript",
+      title: "Array.flat() method In JavaScript",
+      description:
+        "In this article i will walk you through one of the important methods of Array in JavaScript i.e Array.flat method, and how to use it effieicntly",
     },
   ],
   display: true, // Set false to hide this section, defaults to true
@@ -408,7 +536,7 @@ const podcastSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Want to hire me | Discuss a project | Need a web developer | Need a freelancer",
+    "Want to hire me | Discuss a project | Need a website | Need a freelancer",
   number: "+91-8986774801",
   email_address: "mr.rahulnag67@gmail.com",
 };
