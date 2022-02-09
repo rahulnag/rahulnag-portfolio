@@ -1,8 +1,8 @@
 @import "../../_globalColor";
 
-.card-image {
+.card-image-1 {
   max-width: 100%;
-  height: auto;
+  height: 100%;
   width: 100%;
 }
 .card-title {
@@ -25,7 +25,7 @@
   border-radius: 10px;
   border: 1px solid $lightBorder1;
   justify-content: center;
-  width: 250px;
+  width: 90%;
   height: 280px;
   margin: 7px;
 }
@@ -57,16 +57,17 @@
   height: 150px;
   overflow: hidden;
   text-align: center;
+  border-radius: 10px;
 }
 
 .projects-container {
-  // display: grid;
-  // grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  // gap: 1rem 1rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem 1rem;
+  // display: flex;
+  // justify-content: center;
+  // align-items: center;
+  // flex-wrap: wrap;
 }
 
 .project-card-footer span.project-tag {
