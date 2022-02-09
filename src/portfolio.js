@@ -14,7 +14,7 @@ const greeting = {
   username: "Rahul Nag",
   title: "Hey There, I'm Rahul",
   subTitle: emoji(
-    "A passionate self-taught frontend web developer and Founder/ Tech Blogger at CapsCode. I am having an experiende in building Web and Mobile applications with JavaScript / Reactjs and some other cool libraries and frameworks."
+    "A passionate self-taught frontend web developer and Founder/ Tech Blogger at CapsCode. I am having an experience in building Web and Mobile applications with JavaScript / Reactjs and some other cool libraries and frameworks."
   ),
   resumeLink:
     "https://drive.google.com/file/d/12CtAZK7Irzs_T82C5NFhe8HZixmbv-n5/view?usp=sharing", // Set to empty to hide the button
