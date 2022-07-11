@@ -17,7 +17,7 @@ const greeting = {
     "A passionate self-taught frontend web developer and Founder/ Tech Blogger at CapsCode. I am having an experience in building Web and Mobile applications with JavaScript / Reactjs and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/12CtAZK7Irzs_T82C5NFhe8HZixmbv-n5/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1Nb8Dj0-ly_xb10PMKJ16uVOC17xVzvza/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true, // Set false to hide this section, defaults to true
 };
 
@@ -39,7 +39,7 @@ const socialMediaLinks = {
 const skillsSection = {
   title: "What I do",
   subTitle:
-    "Currentyl I am working as a Lead Software Developer @Bridgei2i and I spend most of my time in writing codes and in my free timing i write tech blogs for you.",
+    "Currentyl I am working as a Lead Software Developer @Accenture, India and I spend most of my time in writing codes and in my free timing i write tech blogs for you.",
   skills: [
     emoji(
       "⚡ I develop fully responsive Front end / User Interfaces for your web and mobile applications"
@@ -182,13 +182,14 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Lead Software Engineer",
-      company: "Bridgei2i",
-      companylogo: require("./assets/images/bridgei2i.png"),
+      role: "AI Engineering Consultant",
+      company: "Accenture, India",
+      companylogo: require("./assets/images/accenture.png"),
       date: "Jan 2021 – Present",
       desc:
         "Currently developing reporting tool for Clorox in ReactJS which contains lot of Graph and Table with CRUD opeations.",
       descBullets: [
+        "Role: Lead Frontend Developer",
         "Converting Figma into real Tech",
         "Frontend Developer",
         "Working with libraries/ framework like React-Table, Amcart, MaterialUI, ContextAPI",

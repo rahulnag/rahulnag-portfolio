@@ -55,7 +55,7 @@ export default function Greeting() {
               // <DisplayLottie animationData={landingPerson} />
               <img
                 alt="rahul nag coding"
-                src={require("../../assets/images/landingPerson3.gif")}
+                src={require("../../assets/images/profile_image.png")}
               ></img>
             ) : (
               <img
